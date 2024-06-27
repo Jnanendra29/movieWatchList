@@ -1,0 +1,148 @@
+.navlinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.user-options {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar {
+  background-color: rgb(121, 221, 221);
+}
+
+.login-form {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.login-form form {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 40vh;
+  gap: 10px;
+}
+
+.login-form form button {
+  width: 50%;
+}
+
+.login-form form input {
+  width: 97%;
+  font-size: 1.25rem;
+  background-color: rgb(179, 246, 224);
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 40vh;
+  gap: 10px;
+}
+
+.registration-form form input {
+  width: 97%;
+  font-size: 1.25rem;
+  background-color: rgb(179, 246, 224);
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.movie-form {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie-form input {
+  padding: 5px;
+  font-size: 1.25rem;
+  background-color: rgb(179, 246, 224);
+  border: none;
+  outline: none;
+}
+
+.movie-form textarea {
+  padding: 5px;
+  font-size: 1.25rem;
+  background-color: rgb(179, 246, 224);
+  border: none;
+  outline: none;
+}
+
+.movie-form button {
+  width: 13%;
+  font-size: 1.05rem;
+  background-color: rgb(179, 246, 224);
+  padding: 5px;
+}
+
+.movie-list {
+  display: flex;
+  padding: 0px 10px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+  max-width: 200px;
+  align-items: center;
+  gap: 5px;
+  background-color: beige;
+}
+
+.movie-card img {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+.movie-card button {
+  width: 60%;
+  background-color: rgb(179, 246, 224);
+  padding: 2px;
+}
+
+.rate-review{
+    padding: 5px 10px;
+}
+.rate-and-review{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+}
